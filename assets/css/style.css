@@ -6,3 +6,13 @@
     display: block;
 }
 
+.no-link{
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.imagen-logo{
+    width: 200px;
+    height: 80px;
+}
+

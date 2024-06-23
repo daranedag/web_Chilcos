@@ -26,21 +26,24 @@
     display: none;
   }
   
-  .desktop_2 .btn-box {
+  .btn-box {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: #f8fafa;
+    border-radius: 10%;
     display: none;
   }
   
   .desktop_2 .project:hover .btn-box {
     display: block;
+    
   }
   
   .desktop_2 .Container {
     width: 890px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-right: auto;
     margin-bottom: 50px;
     margin-left: auto;
@@ -173,8 +176,10 @@
   }
   
   .desktop_2 .overlay-inner .hdImgs {
-    width: fit-content;
-    height: calc(80% - 55px);
+    /*width: fit-content;*/
+    width: auto;
+    /*height: calc(80% - 55px);*/
+    height: max-content;
     display: flex;
   }
   

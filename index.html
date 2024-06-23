@@ -10,14 +10,16 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Chilcos</a>
+            <a class="navbar-brand" href="./index.html">
+                <img class="imagen-logo" src="./assets/img/Logo-Chilcos-color-(fondo-transparente).png" alt="LogoChilcos">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle no-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Sobre Nosotros
                         </a>
                         <ul class="dropdown-menu">
@@ -40,13 +42,32 @@
         </div>
     </nav>
     <div class="">
-        <div class="text-center bg-dark text-primary">
-            <div class="container py-5 bg-dark text-light">
-                <h1 class="text-body-emphasis">Centro Cultural Chilcos</h1>
-                <p class="col-lg-8 mx-auto lead">
-                    Foto representativa de Chilcos
-                </p>
+        <!-- Carrusel imágenes (5)-->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/inicio1.jpeg" class="d-block w-100" alt="foto inicio 1" height="400" width="300">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/inicio2.jpg" class="d-block w-100" alt="foto inicio 2" height="400" width="300"">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/inicio3.jpeg" class="d-block w-100" alt="foto inicio 2" height="400" width="300"">
+                </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Texto inicio -->
+        <div class="container text-center mt-4">
+            <h1>Iniciativa Pedagógica Waldorf en Valdivia</h1>
+            <p>Somos una organización sin ánimo de lucro, que nació en Valdivia el año 2012, como respuesta a la inquietud de un grupo de familias y profesionales de la educación por ofrecer una alternativa pedagógica para dar a los niños y niñas una educación respetuosa y saludable.</p>
         </div>
     </div>
       

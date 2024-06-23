@@ -1,4 +1,4 @@
-document.ready(function() {
+$(document).ready(function() {
     console.log("hola!!")
     $(`[unique-script-id="w-w-dm-id"] .btn-box`).click(function() {
       $(this).parent().children(".overlay").show();
