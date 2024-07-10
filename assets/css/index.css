@@ -4,11 +4,34 @@
 }
 .logo{
     height: 10%;
-    width: 40%;
+    width: 60%;
 }
 .bordes{
-    border: 1px solid red;
+    border: 0px solid red;
 }
 .carrusel{
-    height: 300px;
+    height: auto;
 }
+
+.deshabilitado {
+    color: grey !important; 
+    text-decoration: line-through !important;
+    pointer-events: none;
+}
+
+.deshabilitado:hover{
+    color: grey !important; 
+    text-decoration: line-through !important;
+    pointer-events: none;
+}
+
+.margen{
+    margin-top: 1%;
+}
+
+/* .fotoTop{
+    position: relative;
+    top: 75px;
+    right: 80px;
+    z-index: 1;
+} */
