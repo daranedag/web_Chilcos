@@ -1,6 +1,46 @@
+@font-face {
+    font-family: 'lira_sansblack_italic';
+    src: url('../fonts/lirasans-bookitalic-webfont.woff2') format('woff2'),
+         url('../fonts/lirasans-bookitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'lira_sansblack_italic';
+    src: url('../fonts/lirasans-regular.woff2') format('woff2'),
+         url('../fonts/lirasans-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
    background-color: #F3F3F3;
    color: #666;
+   font-family: 'lira_sansblack_italic', Arial, sans-serif;
+   font-style: normal;
+}
+h1{
+     font-family: 'lira_sansblack_italic', Arial, sans-serif;
+   font-style: italic;
+   font-size: 1.5em;
+
+}
+
+h2{
+     font-family: 'lira_sansblack_italic', Arial, sans-serif;
+   font-style: italic;
+   font-size: 2em;
+   color: #3C1E66;
+
+}
+blockquote{
+        border-left: none;
+}
+cite{
+       color: #3C1E66;
+
 }
 *{
     padding: 0;
@@ -8,8 +48,7 @@ body{
 }
 .logo{
     margin-left: 20%;
-    height: 10%;
-    width: 60%;
+    max-width: 247px;
 }
 .bordes{
     border: 0px solid red;
@@ -53,6 +92,11 @@ body{
     hyphens: auto;
     color: #666;
 }
+.grid-contenido{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .grid-container {
     background-image: url("../img/web_chilcos_bg.png");
     background-size: 100%;
@@ -60,4 +104,22 @@ body{
 }
 .footer{
     background-image: url("../img/pattern_chilcos.png") ;
+}
+@media (max-width: 480px) {
+    .logo{
+    margin-left: 25%;
+    max-width: 180px;
+}
+.fotoTop{
+    position: absolute;
+    top: 5px;
+} 
+.grid-container {
+    background-image:none;
+}
+.grid-contenido{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 }
