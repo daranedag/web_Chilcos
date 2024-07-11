@@ -105,15 +105,43 @@ cite{
 .footer{
     background-image: url("../img/pattern_chilcos.png") ;
 }
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 1020px) {
+    .logo{
+    margin-left: 5%;
+    max-width: 200px;
+}
+.fotoTop{
+    position:absolute;
+    top:10 px;
+    right: 10%;
+    max-width: 180px;
+}
+.menu{
+    margin-left: 7%;
+}
+
+}
+
+
 @media (max-width: 480px) {
     .logo{
     margin-left: 25%;
     max-width: 180px;
+    
 }
 .fotoTop{
     position: absolute;
     top: 5px;
+    right: 0px;
+    max-width: 100%;
 } 
+.menu {
+    margin-left: 0px;
+
+}
 .grid-container {
     background-image:none;
 }
