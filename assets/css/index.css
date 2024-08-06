@@ -14,6 +14,12 @@
     font-style: normal;
 
 }
+a{
+     color: #3C1E66;
+}
+a:hover{
+    color: #B48DC0;
+}
 
 body{
    background-color: #F3F3F3;
@@ -115,8 +121,88 @@ cite{
     right: 20%;
     z-index: 1;
 } 
+/* Footer */
+
+.footer, #footer{
+    color: #3C1E66;
+    background-image: url("../img/pattern_chilcos.png") ;
+
+}
+.mapa{
+    width: 100%;
+    height: 300px;
+}
+/* Tabla */
+
+table {
+            width: 100%; /* Ancho de la tabla */
+            border-collapse: collapse; /* Colapsa los bordes */
+            margin: 20px 0; /* Margen superior e inferior */
+            font-size: 18px; /* Tamaño de la fuente */
+            text-align: left; /* Alineación del texto a la izquierda */
+        }
+
+th, td {
+            padding: 12px 15px; /* Relleno de las celdas */
+            border: 0px;
+
+        }
+
+th {
+            background-color: #DFB8EE; /* Color de fondo de los encabezados */
+            color: #3C1E66; /* Color del texto de los encabezados */
+        }
+
+tr:nth-child(even) {
+              background-color: #F3F3F3;/* Color de fondo para filas pares */
+        }
+
+caption {
+            caption-side: bottom; /* Posición del título de la tabla */
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #3C1E66;
+        }
+
+
+/* Nosotros */
+.imgHead{
+     background-image: url("../img/DSC_1324.jpg") ;
+     height: 400px;
+     background-size: cover; /* Asegura que la imagen cubra toda el área */
+     background-attachment: fixed; /* Fija la imagen para que no se mueva con el desplazamiento */
+     background-position: center center; /* Centra la imagen en el área visible */
+     background-repeat: no-repeat; /* Evita que la imagen se repita */
+
+}
+.imgHeadPostulacion{
+     background-image: url("../img/DSC_1022_edit.jpg") ;
+     height: 400px;
+     background-size: cover; /* Asegura que la imagen cubra toda el área */
+     background-attachment: fixed; /* Fija la imagen para que no se mueva con el desplazamiento */
+     background-position: center center; /* Centra la imagen en el área visible */
+     background-repeat: no-repeat; /* Evita que la imagen se repita */
+
+}
+#equipo{
+    color: #3C1E66;
+}
+#equipo p {
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+#equipo div{
+  margin-bottom: 20px;
+}
 
 /* Media Queries for Responsiveness */
+
+@media (max-width: 1400px) {
+    .fotoTopI{
+    right: 5px;
+}}
 
 @media (max-width: 1020px) {
     .imgBienvenida{
@@ -163,36 +249,10 @@ cite{
     padding-left: 5%;
     padding-right: 5%;
 }
-
-}
-/* Footer */
-
-.footer, #footer{
-    color: #3C1E66;
-    background-image: url("../img/pattern_chilcos.png") ;
-
-}
-
-
-/* Nosotros */
 .imgHead{
-     
-    background-image: url("../img/DSC_1324.JPG") ;
-    height: 400px;
-    background-size: cover; /* Asegura que la imagen cubra toda el área */
-    background-attachment: fixed; /* Fija la imagen para que no se mueva con el desplazamiento */
-    background-position: center center; /* Centra la imagen en el área visible */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
+     background-image: url("../img/DSC_1324.jpg") ;
+     height: 200px;
 
 }
-#equipo{
-    color: #3C1E66;
-}
-#equipo p {
-    font-weight: bold;
-    padding: 0px;
-    margin: 0px;
-}
-#equipo div{
-    margin-bottom: 20px;
+
 }
