@@ -176,22 +176,23 @@ cite{
 
 /* Nosotros */
 .imgHead{
-     background-image: url("../img/DSC_1324.jpg") ;
-     height: 400px;
-     background-size: cover; /* Asegura que la imagen cubra toda el área */
-     background-attachment: fixed; /* Fija la imagen para que no se mueva con el desplazamiento */
-     background-position: center center; /* Centra la imagen en el área visible */
-     background-repeat: no-repeat; /* Evita que la imagen se repita */
+     
+    background-image: url("../img/DSC_1324.JPG") ;
+    height: 400px;
+    background-size: cover; /* Asegura que la imagen cubra toda el área */
+    background-attachment: fixed; /* Fija la imagen para que no se mueva con el desplazamiento */
+    background-position: center center; /* Centra la imagen en el área visible */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
 
 }
 #equipo{
     color: #3C1E66;
 }
 #equipo p {
-  font-weight: bold;
-  padding: 0px;
-  margin: 0px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
 }
 #equipo div{
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
