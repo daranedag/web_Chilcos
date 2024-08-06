@@ -168,7 +168,7 @@ caption {
 
 /* Nosotros */
 .imgHead{
-     background-image: url("../img/DSC_1324.jpg") ;
+     background-image: url("../img/DSC_1324.JPG") ;
      height: 400px;
      background-size: cover; /* Asegura que la imagen cubra toda el área */
      background-attachment: fixed; /* Fija la imagen para que no se mueva con el desplazamiento */
