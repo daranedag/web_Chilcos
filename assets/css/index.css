@@ -167,8 +167,11 @@ caption {
 
 
 /* Nosotros */
+.globos{
+    max-width:120px;
+}
 .imgHead{
-     background-image: url("../img/DSC_1324.JPG") ;
+     background-image: url("../img/DSC_1324.jpg") ;
      height: 400px;
      background-size: cover; /* Asegura que la imagen cubra toda el área */
      background-attachment: fixed; /* Fija la imagen para que no se mueva con el desplazamiento */
@@ -219,6 +222,20 @@ caption {
 .menu{
     margin-left: 7%;
 }
+.imgHead{
+    background-size: contain;
+    height: 200px;
+    background-attachment: fixed;
+    background-position: top center; /* Centra la imagen en el área visible */
+
+}
+.imgHeadPostulacion{
+    background-size: contain;
+    height: 200px;
+    background-attachment: fixed;
+    background-position: top center; /* Centra la imagen en el área visible */
+
+}
 
 }
 
@@ -250,9 +267,21 @@ caption {
     padding-right: 5%;
 }
 .imgHead{
-     background-image: url("../img/DSC_1324.jpg") ;
+     background-size: contain;
+     background-attachment: inherit;
      height: 200px;
 
+}
+.imgHeadPostulacion{
+    background-size: contain;
+    background-attachment: inherit;
+    height: 220px;
+
+}
+.globos{
+max-width: 220px;
+margin-left: auto;
+margin-right: auto;
 }
 
 }
