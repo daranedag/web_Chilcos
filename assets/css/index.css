@@ -196,12 +196,12 @@ caption {
 
 /* Media Queries for Responsiveness */
 
-@media (max-width: 1400px) {
+@media (max-width: 1480px) {
     .fotoTopI{
-    right: 5px;
+    right: 6%;
 }}
 
-@media (max-width: 1020px) {
+@media (max-width: 1024px) {
     .imgBienvenida{
      max-width: 100%;
 }
@@ -210,7 +210,7 @@ caption {
     max-width: 200px;
 }
 .fotoTopI{
-    right: 5%;
+    right: 2%;
     max-width: 25%;
 }
 .menu{
