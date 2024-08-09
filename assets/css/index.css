@@ -256,7 +256,7 @@ caption {
     background-size: 200%;
     background-attachment: fixed;
     height: 220px;
-    background-position: top center; /* Centra la imagen en el área visible */
+    background-position: center 100px; /* Centra la imagen en el área visible */
 
 }
 .globos{
