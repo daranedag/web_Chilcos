@@ -134,8 +134,10 @@ cite{
 
 .footer, #footer{
     color: #3C1E66;
-    background-image: url("../img/pattern_chilcos.png") ;
-
+    background-image: url("../img/pattern_chilcos_v2.png") ;
+}
+.textoClaro{
+    color: #fff;
 }
 .mapa{
     width: 100%;
@@ -251,41 +253,69 @@ ol>li{
 
 @media (max-width: 480px) {
     .imgBienvenida{
-     max-width: 100%;
-}
-    .logo{
-    margin-left: 25%;
-    max-width: 180px;
+        max-width: 100%;
+    }
+        .logo{
+        margin-left: 25%;
+        max-width: 180px;
+        
+    }
     
-}
-.fotoTopI{
-    position: absolute;
-    top: 5px;
-    right: 0px;
-    max-width: 25%;
-} 
-.menu {
-    margin-left: 0px;
+    .menu {
+        margin-left: 0px;
 
-}
-.bgImg {
-    background-image:none;
-}
-.grid-contenido{
-    padding-left: 5%;
-    padding-right: 5%;
-}
-.imgHead{
-    background-size: 200%;
-    background-attachment: fixed;
-    height: 220px;
-    background-position: center 100px; /* Centra la imagen en el área visible */
+    }
+    .bgImg {
+        background-image:none;
+    }
+    .grid-contenido{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .imgHead{
+        background-size: 200%;
+        background-attachment: fixed;
+        height: 220px;
+        background-position: center 100px; /* Centra la imagen en el área visible */
 
-}
-.globos{
-max-width: 220px;
-margin-left: auto;
-margin-right: auto;
+    }
+    .globos{
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    }
 }
 
+@media (max-width: 375px) {
+    .logo{
+        margin-left: 25%;
+        height: 50%;
+        width: 50%;
+    }
+    .menu{
+        font-size: 0.8em;
+    }
+    .fotoTopI{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        max-width: 15%;
+    }
+}
+
+@media (max-width: 320px) {
+    .logo{
+        margin-left: 40%;
+        height: 25%;
+        width: 25%;
+    }
+    .menu{
+        font-size: 0.63em;
+    }
+    .fotoTopI{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        max-width: 15%;
+    }
 }
