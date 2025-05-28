@@ -135,6 +135,8 @@ cite{
 .footer, #footer{
     color: #3C1E66;
     background-image: url("../img/pattern_chilcos_v2.png") ;
+    background-repeat: repeat;
+    background-size: 160px;
 }
 .textoClaro{
     color: #fff;
