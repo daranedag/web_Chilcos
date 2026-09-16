@@ -190,6 +190,52 @@ tbody td{
 
 /* Nosotros */
 
+/* Mantiene las mensualidades legibles dentro de acordeones estrechos. */
+.mensualidades {
+    container-type: inline-size;
+    min-width: 0;
+    margin: 20px 0;
+}
+
+.mensualidades-scroll {
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.mensualidades-scroll:focus-visible {
+    outline: 2px solid #684b9e;
+    outline-offset: 3px;
+}
+
+.tabla-mensualidades {
+    min-width: 460px;
+    margin: 0;
+}
+
+.tabla-mensualidades th,
+.tabla-mensualidades td {
+    padding: 10px 12px;
+}
+
+.tabla-mensualidades th:not(:first-child),
+.tabla-mensualidades td:not(:first-child) {
+    white-space: nowrap;
+    text-align: right;
+}
+
+.mensualidades-ayuda {
+    margin: 0 0 8px;
+    font-size: 0.875rem;
+    color: #684b9e;
+}
+
+@container (min-width: 460px) {
+    .mensualidades-ayuda {
+        display: none;
+    }
+}
+
 .imgHead{
      background-image: url("../img/DSC_1022_edit.jpg") ;
      height: 400px;
